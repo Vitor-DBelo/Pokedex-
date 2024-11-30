@@ -1,0 +1,21 @@
+@media screen and (max-width: 390px){
+    .pokemon{
+        max-width: 20rem;
+    }
+    .listPokemons{
+        grid-template-columns: 1fr;
+    }
+}
+@media screen and (min-width: 997px) {
+    .pokemon{
+        max-width: 20rem;
+    }
+    .listPokemons{
+        grid-template-columns: repeat(5, 1fr);
+    }
+}
+@media screen and (min-width: 1158px){
+    .listPokemons{
+        grid-template-columns: repeat(6, 1fr);
+    }
+} 
