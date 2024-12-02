@@ -1,5 +1,6 @@
 *{
     font-family: "Roboto", sans-serif;
+    font-family: "Noto Sans JP", sans-serif;
     box-sizing: border-box;
 }
 
@@ -20,6 +21,7 @@
     min-width: 1.5rem;
     max-width: 100%;
     cursor: pointer;
+    z-index: 9999;
 }
 .top-bar .menu-list{
     margin: 15px 0px 15px 0px;

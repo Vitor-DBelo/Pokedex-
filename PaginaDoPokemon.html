@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokedex</title>
+    <title>${pokemon.name}</title>
     <!--Global.css-->
     <link rel="stylesheet" href="assets/css/Global.css">
     <!--pokedex.css-->
     <link rel="stylesheet" href="assets/css/pokedex.css">
-    <!--mediaquery.css-->
+
+    <link rel="stylesheet" href="poke.css">
     <link rel="stylesheet" href="assets/css/mediaquery.css">
     <!--Link Faficon-->
     <link rel="shortcut icon" href="assets/src/favicon.ico" type="image/x-icon">
@@ -18,33 +19,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
-    
+
+    <!--Fonte -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
+
 </head>
-<body>
+<body style="background-color: #49D0B4;">
     <section class="content">
         <nav class="top-bar">
             <img class="arrow-left" src="assets/src/arrow-left.svg" alt="CetaLefeft">
-            <img class="menu-list" src="assets/src/list.svg" alt="hamburguerMenu">
         </nav>
-        
-        <h1>Pokedex</h1>
-        
-        <ol class="listPokemons" id="pokemonList">
-        </ol>
+        <article class="Top-pag">
+            <div class="pokemondie">
+                <span class="name-pokemon">ola</span>
+                <span class="number">#002</span>
+            </div>
+            <ol class="Top-pag-types">
+                <li class="type">dada</li>
+                <li class="type">dqwq</li>
+            </ol>
+            <span class="name-japones">フシギダネ</span>
+            <img class="poke-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg" alt="">
 
-        <div id="paginnation">
-            <button type="button" id="LoadMore">
-                <img src="assets/src/caret-down-fill.svg" alt="caret-down-fill">
-            </button>
-        </div>
+
+        </article>
+        <main class="Down-pag" >
+            <nav class="Down-nav">
+                <ul class="Down-ul">
+                    <li>info</li>
+                    <li>djob</li>
+                    <li>cond</li>
+                </ul>
+            </nav>
+            <hr>
+            <p>asdasdadsd</p>
+            <p>asdasd</p>
+        </main>
     </section>
-   
-
+    
     <script src="assets/js/pokemon-model.js"></script>
     <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/main.js"></script>
 </body>
 </html>
-
 
 

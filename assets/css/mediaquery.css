@@ -1,4 +1,4 @@
-@media screen and (max-width: 390px){
+@media screen and (max-width: 400px){
     .pokemon{
         max-width: 20rem;
     }
@@ -7,6 +7,11 @@
     }
 }
 @media screen and (min-width: 997px) {
+    .pokemon .detail img{
+        max-width: 100%;
+        height: 75px;
+        align-self: flex-end;
+    }
     .pokemon{
         max-width: 20rem;
     }
@@ -15,7 +20,25 @@
     }
 }
 @media screen and (min-width: 1158px){
+     .pokemon .detail img{
+        max-width: 100%;
+        height: 75px;
+        align-self: flex-end;
+    }
     .listPokemons{
         grid-template-columns: repeat(6, 1fr);
     }
 } 
+
+@media screen and (min-width: 768px) {
+
+    .poke-img {
+        width: 150px;  
+    }
+}
+
+@media screen and (min-width: 997px) {
+    .poke-img {
+        width: 200px; 
+    }
+}

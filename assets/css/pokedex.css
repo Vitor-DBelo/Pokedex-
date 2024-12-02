@@ -1,17 +1,70 @@
+.pokemon.normal {
+    background-color: #A4A66D; 
+}
+.pokemon.grass {
+    background-color: #49D0B4; 
+}
+.pokemon.fire {
+    background-color: #F26B6B; 
+}
+.pokemon.water {
+    background-color: #72C1F2; 
+}
+.pokemon.electric {
+    background-color: #FFD86F; 
+}
+.pokemon.ice {
+    background-color: #A6D7E3; 
+}
+.pokemon.ground {
+    background-color: #E2B77A; 
+}
+.pokemon.flying {
+    background-color: #B28FF0; 
+}
+.pokemon.poison {
+    background-color: #8C8AC6; 
+}
+.pokemon.fighting {
+    background-color: #68541c; 
+}
+.pokemon.psychic {
+    background-color: #F1A0C2; 
+}
+.pokemon.dark {
+    background-color: #4B0082; 
+}
+.pokemon.rock {
+    background-color: #B8A038; 
+}
+.pokemon.bug {
+    background-color: #A8B820; 
+}
+.pokemon.ghost {
+    background-color: #705898; 
+}
+.pokemon.steel {
+    background-color: #B8B8D0; 
+}
+.pokemon.dragon {
+    background-color: #7038F8; 
+}
+.pokemon.fairy {
+    background-color: #EE99AC; 
+}
+
 .listPokemons{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0;
-    margin: 0;
-    margin-top: 10px;
+    overflow: hidden;
 }
-.pokemon{
-    background-color: #49d0b4;
+.pokemon{ 
     display: flex;
     flex-direction: column;
     border-radius: .5rem;
-    margin: .5rem;
+    margin: .3rem;
     padding: 2rem 1rem;
     color: white;
 }
@@ -39,16 +92,44 @@
     margin: 0;
 }
 .pokemon .detail .types .type{
-    background-color: #61e1ca;
     color: white;
     padding: .2rem .5rem;
     margin: .25rem 0;
     border-radius: 15px;
-    font-family: .625rem;
+    font-size: .625rem;
     text-align: center;
+    background-color: rgba(255, 255, 255, 0.233);
 }
+
 .pokemon .detail img{
-    max-width: 100%;
+    max-width: 45%;
+    margin: 0;
+    padding: 0;
     height: 75px;
-    align-self: flex-end;
+    
+}
+
+#paginnation {
+    position: fixed;
+    bottom: 7.5vh;  
+    right: 4vw;   
+    z-index: 9999;
+    padding: 10px;
+    color: white;
+}
+
+#LoadMore{
+    border-radius: 50%;
+    border: 0;
+    width: 50px; 
+    height: 50px; 
+    padding: 10px;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    background-color: #6C7DD9;
+    cursor: pointer;
+}
+#LoadMore:hover{
+    background-color: #A7B2F2;
 }
