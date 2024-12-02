@@ -1,7 +1,7 @@
-const MaxPokemon = 151;
+//const MaxPokemon = 151;
 
 let offset = 0;
-const limit = 5;
+const limit = 30;
 
 const pokemonList = document.getElementById('pokemonList');
 const LoadMoreButton = document.getElementById('LoadMore');
