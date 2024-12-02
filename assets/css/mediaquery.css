@@ -42,3 +42,30 @@
         width: 200px; 
     }
 }
+
+@media screen and (min-width: 399px){
+    .Down-ul{
+        justify-content: space-around;
+        font-size: clamp(.9rem, 1vw, 1rem);
+    }
+}
+ @media screen and (max-width: 496px) {
+    .Down-ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr; /* Define 2 colunas de tamanho igual */
+        gap: 10px; /* Espaçamento entre os itens */
+        justify-content: center; /* Centraliza o grid */
+        padding: 0;
+        list-style: none;
+        margin: 15px auto; /* Centraliza horizontalmente */
+    }
+    
+    .Down-ul li {
+        text-align: center; 
+    }
+    
+    .Down-ul li a {
+        font-size: 0.9rem; 
+    }
+}
+    

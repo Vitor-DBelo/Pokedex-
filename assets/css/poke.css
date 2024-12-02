@@ -1,0 +1,143 @@
+.pokemon.normal {
+    background-color: #A4A66D; 
+}
+.pokemon.grass {
+    background-color: #49D0B4; 
+}
+.pokemon.fire {
+    background-color: #F26B6B; 
+}
+.pokemon.water {
+    background-color: #72C1F2; 
+}
+.pokemon.electric {
+    background-color: #FFD86F; 
+}
+.pokemon.ice {
+    background-color: #A6D7E3; 
+}
+.pokemon.ground {
+    background-color: #E2B77A; 
+}
+.pokemon.flying {
+    background-color: #B28FF0; 
+}
+.pokemon.poison {
+    background-color: #8C8AC6; 
+}
+.pokemon.fighting {
+    background-color: #68541c; 
+}
+.pokemon.psychic {
+    background-color: #F1A0C2; 
+}
+.pokemon.dark {
+    background-color: #4B0082; 
+}
+.pokemon.rock {
+    background-color: #B8A038; 
+}
+.pokemon.bug {
+    background-color: #A8B820; 
+}
+.pokemon.ghost {
+    background-color: #705898; 
+}
+.pokemon.steel {
+    background-color: #B8B8D0; 
+}
+.pokemon.dragon {
+    background-color: #7038F8; 
+}
+.pokemon.fairy {
+    background-color: #EE99AC; 
+}
+
+
+.Top-pag{
+    color: rgba(0, 0, 0, 0.541);
+    position: relative;
+    justify-content: center;
+    text-align: center;
+    display: block;
+    flex-direction: row;
+}
+.pokemondie{
+    font-size: clamp(1.5rem, 2vw, 3rem);
+    display: flex;
+    justify-content: space-between;
+}
+
+.Top-pag-types{
+    display: flex;
+    font-size: clamp(.9rem, 1vw, 1rem);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 2vh;
+    margin-bottom: 10px;
+}
+.Top-pag-types .types{
+    background-color: rgba(255, 255, 255, 0.384);
+    border-radius: .9rem;
+    font-size: .7rem;
+    width: auto;
+    padding: .2rem;
+}
+.Down-pag{
+    width: 100%;
+    min-height: 100%;
+    height: auto;
+    background-color: white;
+    border-radius: 25px;
+    margin-top: 10px;
+    overflow: hidden; 
+}
+
+.Down-ul {
+    display: flex;
+    justify-content: left;
+    list-style: none;
+    margin-top: 15px;
+    background-color: white;
+    font-size: .4rem;
+    gap: 2vw;
+    
+}
+.Down-ul li a {
+    text-decoration: none;
+    color: black;
+    border-bottom: 0px solid rgb(224, 34, 34);
+}
+
+.Down-ul li:hover a {
+    border-bottom: 1px solid rgb(224, 34, 34); 
+}
+
+.name-japones {
+    font-size: 9vw; 
+    width: 100%;
+    position: absolute;
+    color: rgba(0, 0, 0, 0.589);
+    top: 50%;
+    left: 29%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
+
+.poke-img {
+    max-width: 100%;
+    width: 100px;
+    height: auto;
+}
+
+.info-poke{
+    width: 85%;
+    min-height: 100%;
+    height: auto;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    
+}

@@ -60,6 +60,9 @@
     padding: 0;
     overflow: hidden;
 }
+.listPokemons a{
+    text-decoration: none;
+}
 .pokemon{ 
     display: flex;
     flex-direction: column;
