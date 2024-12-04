@@ -8,7 +8,9 @@
   <li>CSS(responsivo)</li>
   <li>JavaScript</li>
   <li>Fetch API</li>
+  <li>Node.js (para host local)</li>
  </ul>
+ <p> O Node.js foi utilizado apenas para hospedar o site de forma local durante o desenvolvimento.</p>
  <br>
  <p>Interface inicial</p>
  <img src="assets/src/Design sem nome (3).png" alt="">
