@@ -1,55 +1,55 @@
-.pokemon.normal {
+body.normal {
     background-color: #A4A66D; 
 }
-.pokemon.grass {
+body.grass {
     background-color: #49D0B4; 
 }
-.pokemon.fire {
+body.fire {
     background-color: #F26B6B; 
 }
-.pokemon.water {
+body.water {
     background-color: #72C1F2; 
 }
-.pokemon.electric {
+body.electric {
     background-color: #FFD86F; 
 }
-.pokemon.ice {
+body.ice {
     background-color: #A6D7E3; 
 }
-.pokemon.ground {
+body.ground {
     background-color: #E2B77A; 
 }
-.pokemon.flying {
+body.flying {
     background-color: #B28FF0; 
 }
-.pokemon.poison {
+body.poison {
     background-color: #8C8AC6; 
 }
-.pokemon.fighting {
+body.fighting {
     background-color: #68541c; 
 }
-.pokemon.psychic {
+body.psychic {
     background-color: #F1A0C2; 
 }
-.pokemon.dark {
+body.dark {
     background-color: #4B0082; 
 }
-.pokemon.rock {
+body.rock {
     background-color: #B8A038; 
 }
-.pokemon.bug {
+body.bug {
     background-color: #A8B820; 
 }
-.pokemon.ghost {
+body.ghost {
     background-color: #705898; 
 }
-.pokemon.steel {
+body.steel {
     background-color: #B8B8D0; 
 }
-.pokemon.dragon {
+body.dragon {
     background-color: #7038F8; 
 }
-.pokemon.fairy {
+body.fairy {
     background-color: #EE99AC; 
 }
 

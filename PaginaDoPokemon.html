@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>${pokemon.name}</title>
+    <title>PokeView</title>
     <!--Global.css-->
     <link rel="stylesheet" href="assets/css/Global.css">
     <!--pokedex.css-->
@@ -27,22 +27,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
 </head>
-<body style="background-color: #49D0B4;">
+<body class="grass">
     <section class="content">
         <nav class="top-bar">
             <a href="index.html"><img class="arrow-left" src="assets/src/arrow-left.svg" alt="CetaLefeft"></a>
         </nav>
-        <article class="Top-pag">
-            <div class="pokemondie">
-                <span class="name-pokemon">ola</span>
-                <span class="number">#002</span>
-            </div>
-            <ol class="Top-pag-types">
-                <li class="types">dada</li>
-                <li class="types">dqwq</li>
-            </ol>
-            <span class="name-japones">フシギダネ</span>
-            <img class="poke-img" src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/2.svg" alt="">
+        <article class="Top-pag"  id="pokeview">
         </article>
         <main class="Down-pag" >
             <nav class="Down-nav">
@@ -55,10 +45,6 @@
                 <hr>
             </nav>
             <section class="info-poke" style="flex-direction: column;">
-                <span>A colocar</span>
-                <span>A colocar</span>
-                <span>A colocar</span>
-                <span>A colocar</span>
             </section>
         </main>
     </section>
@@ -66,6 +52,7 @@
     <script src="assets/js/pokemon-model.js"></script>
     <script src="assets/js/poke-api.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="assets/js/PokeViews.js"></script>
 </body>
 </html>
 

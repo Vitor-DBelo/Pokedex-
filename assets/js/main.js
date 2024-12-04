@@ -12,7 +12,7 @@ function LoadPokemonIten(offset, limit){
     pokeApi.getPokemons(offset, limit)
     .then((pokemons = []) => {     // Usando "+=" adicionamos o novo conteúdo HTML ao existente, enquanto "=" sobrescreve todo o conteúdo anterior
         pokemonList.innerHTML += pokemons.map((pokemon) => `       
-            <a href="./PaginaDoPokemon.html?id=${pokemon.id}">
+            <a href="./PaginaDoPokemon.html?id=${pokemon.number}">
                 <li class="pokemon ${pokemon.type}"> 
                     <span class="number">#${pokemon.number}</span>
                     <span class="name">${pokemon.name}</span>
