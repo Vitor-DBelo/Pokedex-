@@ -6,6 +6,7 @@
  <ul>
   <li>HTML</li>
   <li>CSS(responsivo)</li>
+  <li>normalize.css</li>
   <li>JavaScript</li>
   <li>Fetch API</li>
   <li>Node.js (para host local)</li>
